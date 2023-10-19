@@ -12,7 +12,7 @@
     "lint:scss": "npx stylelint \"**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
     "lint:format": "prettier . --check --config ./.prettierrc",
-    "lint:format:fix": "prettier . --write' --config ./.prettierrc",
+    "lint:format:fix": "prettier . --write --config ./.prettierrc",
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "prepare": "husky install"
   },

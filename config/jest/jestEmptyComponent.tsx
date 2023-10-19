@@ -1,11 +1,7 @@
-import { type ReactNode } from 'react'
+import { type ReactNode } from "react";
 
 const jestEmptyComponent = (): ReactNode => {
-  return (
-    <div>
+  return <div></div>;
+};
 
-    </div>
-  )
-}
-
-export default jestEmptyComponent
+export default jestEmptyComponent;
