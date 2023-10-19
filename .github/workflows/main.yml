@@ -60,7 +60,7 @@ jobs:
     strategy:
       matrix:
         node-version: [ 18.x ]
-    needs: [lint-format, types-check, unit-tests, ui-tests]
+    needs: [lint-format, types-check, unit-tests]
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
